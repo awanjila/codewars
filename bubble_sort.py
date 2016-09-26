@@ -1,8 +1,8 @@
-""""""""""""""""""""""""
+"""""""""""""""""""""""
 bubble sort algorathim
 
-""""""""""""""""""""""""
-def bubble(nums):
+"""""
+def bubblesort(nums):
 	n=len(nums)
 	for i in range(n-1):
 		#second loop ignores the numbers which have already been sorted
@@ -12,3 +12,5 @@ def bubble(nums):
 			 #swap the two numbers
 				nums[j], nums[j-1]=nums[j-1], nums[j] 
 		return nums
+
+print (bubblesort([9, 5, 6, 1, 8, 2, 3]))

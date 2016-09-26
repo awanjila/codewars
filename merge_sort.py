@@ -1,3 +1,8 @@
+
+"""
+Merge sort with python
+"""
+
 def mergesort(nums):
 	n=len(nums)
 	if n==1:
